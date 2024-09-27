@@ -537,8 +537,8 @@ If ThisWorkbook.Sheets("Service Selection").Range("I10") And (ThisWorkbook.Sheet
     Set xEmailObj = xOutlookObj.CreateItem(0)
     With xEmailObj
         .Display
-        .To = "kchallberg@Client.edu; rmchristlieb1@Client.edu;"
-        .CC = "dmccormick@companyname.com; dbinns@companyname.com; rjschleyer@Client.edu"
+        .To = "clientname@Client.edu;"
+        .CC = "administrator@companyname.com; dbinns@companyname.com; client@Client.edu"
         .subject = ThisWorkbook.Sheets("Project Initiation Form").Range("N11") + " " + ThisWorkbook.Sheets("Project Initiation Form").Range("N301") + " form " + Format(Now(), "MM.DD.YYYY")
         .Attachments.Add (xFolder) ' + ".pdf"
         .Body = "Please see the attached funding request for " & ThisWorkbook.Sheets("Project Initiation Form").Range("N11") & "." & vbNewLine & vbNewLine & "Thank you," & vbNewLine
@@ -699,6 +699,4 @@ End Sub
 
 
 
--¬µx‚>]Õ'>¡¿ùöJö¦ş~]¹ÑrZÖh¦3B‡½)>Yß)mèœ>é»ıĞı¦‚á×Eí›»pÛÊ±nh.,‘#²GGâ'?¡Ïà„¯¥_ïşczë´Ğ ›ö’F¡"îyíèZ"%˜G}¹öÙS}§kôü§´$TwÚa¯izF7•TO0\Sş¹%áQ&°Ã;Á?@Ãæ×ÓL „ßùîÉŒø® Ç‹é@
-|n–ÆX¯håg{³	ªù™ìcÅ†/	vAlÇâohûˆ–µ„)G4üi9„ “À“³bœºyıêr»vuòU¡áÑ,·jrLÏÛ_.êÁWµ©{®è/®ªˆO[ 8 4 ËqÜ¶èî‡=¼® ¬=»BÃ¾Å¹e”ûJŞysªbçÁ;®§n)~[ÒÎIkj?•©-Ô¥D[/J›!…à4€cY`I69I‹Š#:‘ëÂJübç…>æ’£b=pò³ƒ“HoQ1ó1ãƒı`¡°È
-˜tìúÃÙ{Ú®©Š½›9Yy0mBˆg 
+te Hyperlink to PDFã   N Sheets("Project Info Sheet").Range("R" & Rows.Count).End(xlUp).Value = xFolder    ¦  1    –¹  R   ’! ” ¹  Project Info Sheet  :% < % 0 %   Ô ¦  FÔ 8  FÔ ¨  –¹  R   ’! ” ¹  Project Info Sheet  :% < % 0 %   ! ¢B@¤   ã    To Create Hyperlink to Folder     ã   N Sheets("Project Info Sheet").Range("W" & Rows.Count).End(xlUp).Value = xFolder    ¦  1    –¹  W   ’! ” ¹  Project Info Sheet  :% < % 0
