@@ -1,0 +1,79 @@
+/* Your code goes here */
+:root{
+	font-family: Roboto, Helvetica, sans-serif;
+	
+}
+h1{
+	font-size: 16px;
+	color: #444444;
+	text-align: center;
+}
+
+.container{
+	margin: 5px;
+	font-size: 13px;
+}
+div .offer{
+	display: inline-block;
+	width: 400px;
+	margin: 4px;
+	text-align: center;
+	border-radius: 1px;
+	border-color: #cccccc;
+	border-style: solid;
+	box-shadow: 0px 2px 2px #dddddd, 0px 0px 5px #dddddd;
+	
+}
+div .offerTitle{
+	font-style: bold;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #00b3b3;
+	padding: 15px;
+}
+
+div .offerContents{
+	padding: 20px;
+	border-radius:2px;
+	background-color: #fafafa;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+
+}
+
+table{
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 0px;
+	box-shadow: 0px 2px 2px #dddddd, 0px 0px 5px #dddddd;
+	
+}
+
+th{
+	font-size: 12px;
+	color: #777777;
+	padding: 10px;
+	text-align: left;
+	border: 1px;
+	border-bottom-color: #f1f1f1;
+	margin: 0px;
+	font-style: bold;
+}
+
+td{
+	border: 1px;
+	border-bottom-color: #f1f1f1;
+	color: #444444;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0px;
+	font-weight: lighter;
+	text-align: left;
+}
+
+.finalValue{
+	font-weight: bold;
+	color:#2222ff;
+}
